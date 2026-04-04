@@ -1,6 +1,7 @@
-﻿using Unity.VisualScripting;
+﻿
 using UnityEngine;
 using UnityEngine.Events;
+
 public class RelayOuterShipPitchRollYawMono : AbstractOuterShipPitchRollYawMono
 {
     public AbstractOuterShipPitchRollYawMono[] m_toRelayTo;
@@ -56,11 +57,3 @@ public class RelayOuterShipPitchRollYawMono : AbstractOuterShipPitchRollYawMono
         m_onYawRelayed?.Invoke(percent);
     }
 }
-
-
-//public class OuterMono_TransformMotorMove {
-
-//    public float m_rotateLeftRight;
-//    public float m_tiltLeftRight;
-//    public float 
-//}
